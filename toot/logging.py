@@ -17,6 +17,7 @@ def log_request(request):
 
     if request.headers:
         headers = censor_secrets(request.headers)
+        headers = request.headers
         logger.debug(">>> HEADERS: \033[33m{}\033[0m".format(headers))
 
     if request.data:
