@@ -36,7 +36,7 @@ official package repository.
 
     sudo apt install toot
 
-Debian package is maintained by `Jonathan Carter <https://mastodon.xyz/@highvoltage>`_.
+Debian package is maintained by `Jonathan Carter <https://pleroma.debian.social/@highvoltage>`_.
 
 
 Arch Linux
